@@ -45,28 +45,28 @@ SOFTWARE.
 #include <string> // string, stoi, to_string
 #include <utility> // declval, forward, move, pair, swap
 
-#include <nlohmann/json_fwd.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/meta.hpp>
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/value_t.hpp>
-#include <nlohmann/detail/conversions/from_json.hpp>
-#include <nlohmann/detail/conversions/to_json.hpp>
-#include <nlohmann/detail/input/input_adapters.hpp>
-#include <nlohmann/detail/input/lexer.hpp>
-#include <nlohmann/detail/input/parser.hpp>
-#include <nlohmann/detail/iterators/primitive_iterator.hpp>
-#include <nlohmann/detail/iterators/internal_iterator.hpp>
-#include <nlohmann/detail/iterators/iter_impl.hpp>
-#include <nlohmann/detail/iterators/iteration_proxy.hpp>
-#include <nlohmann/detail/iterators/json_reverse_iterator.hpp>
-#include <nlohmann/detail/output/output_adapters.hpp>
-#include <nlohmann/detail/input/binary_reader.hpp>
-#include <nlohmann/detail/output/binary_writer.hpp>
-#include <nlohmann/detail/output/serializer.hpp>
-#include <nlohmann/detail/json_ref.hpp>
-#include <nlohmann/detail/json_pointer.hpp>
-#include <nlohmann/adl_serializer.hpp>
+#include "json_fwd.hpp"
+#include "macro_scope.hpp"
+#include "meta.hpp"
+#include "exceptions.hpp"
+#include "value_t.hpp"
+#include "from_json.hpp"
+#include "to_json.hpp"
+#include "input_adapters.hpp"
+#include "lexer.hpp"
+#include "parser.hpp"
+#include "primitive_iterator.hpp"
+#include "internal_iterator.hpp"
+#include "iter_impl.hpp"
+#include "iteration_proxy.hpp"
+#include "json_reverse_iterator.hpp"
+#include "output_adapters.hpp"
+#include "binary_reader.hpp"
+#include "binary_writer.hpp"
+#include "serializer.hpp"
+#include "json_ref.hpp"
+#include "json_pointer.hpp"
+#include "adl_serializer.hpp"
 
 /*!
 @brief namespace for Niels Lohmann
@@ -7661,6 +7661,6 @@ inline nlohmann::json::json_pointer operator "" _json_pointer(const char* s, std
     return nlohmann::json::json_pointer(std::string(s, n));
 }
 
-#include <nlohmann/detail/macro_unscope.hpp>
+#include "macro_unscope.hpp"
 
 #endif

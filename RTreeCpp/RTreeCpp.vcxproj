@@ -145,10 +145,35 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Git\json\include\nlohmann\json.hpp" />
+    <ClInclude Include="adl_serializer.hpp" />
+    <ClInclude Include="binary_reader.hpp" />
+    <ClInclude Include="binary_writer.hpp" />
+    <ClInclude Include="exceptions.hpp" />
+    <ClInclude Include="from_json.hpp" />
+    <ClInclude Include="input_adapters.hpp" />
+    <ClInclude Include="internal_iterator.hpp" />
+    <ClInclude Include="iteration_proxy.hpp" />
+    <ClInclude Include="iter_impl.hpp" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="json_fwd.hpp" />
+    <ClInclude Include="json_pointer.hpp" />
+    <ClInclude Include="json_ref.hpp" />
+    <ClInclude Include="json_reverse_iterator.hpp" />
+    <ClInclude Include="lexer.hpp" />
+    <ClInclude Include="macro_scope.hpp" />
+    <ClInclude Include="macro_unscope.hpp" />
+    <ClInclude Include="meta.hpp" />
+    <ClInclude Include="output_adapters.hpp" />
+    <ClInclude Include="parser.hpp" />
+    <ClInclude Include="primitive_iterator.hpp" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="RTree.h" />
+    <ClInclude Include="serializer.hpp" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="to_chars.hpp" />
+    <ClInclude Include="to_json.hpp" />
+    <ClInclude Include="value_t.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Coordinates.cpp" />
@@ -163,6 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="YouBikeTP.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RTreeCpp.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

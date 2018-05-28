@@ -4,12 +4,12 @@
 #include <iterator> // iterator, random_access_iterator_tag, bidirectional_iterator_tag, advance, next
 #include <type_traits> // conditional, is_const, remove_const
 
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/iterators/internal_iterator.hpp>
-#include <nlohmann/detail/iterators/primitive_iterator.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/meta.hpp>
-#include <nlohmann/detail/value_t.hpp>
+#include "exceptions.hpp"
+#include "internal_iterator.hpp"
+#include "primitive_iterator.hpp"
+#include "macro_scope.hpp"
+#include "meta.hpp"
+#include "value_t.hpp"
 
 namespace nlohmann
 {

@@ -6,8 +6,8 @@
 #include <type_traits> // conditional, enable_if, false_type, integral_constant, is_constructible, is_integral, is_same, remove_cv, remove_reference, true_type
 #include <utility> // declval
 
-#include <nlohmann/json_fwd.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
+#include "json_fwd.hpp"
+#include "macro_scope.hpp"
 
 namespace nlohmann
 {

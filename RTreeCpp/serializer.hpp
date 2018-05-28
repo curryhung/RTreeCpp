@@ -16,12 +16,12 @@
 #include <sstream> // stringstream
 #include <type_traits> // is_same
 
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/conversions/to_chars.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/meta.hpp>
-#include <nlohmann/detail/output/output_adapters.hpp>
-#include <nlohmann/detail/value_t.hpp>
+#include "exceptions.hpp"
+#include "to_chars.hpp"
+#include "macro_scope.hpp"
+#include "meta.hpp"
+#include "output_adapters.hpp"
+#include "value_t.hpp"
 
 namespace nlohmann
 {

@@ -10,8 +10,8 @@
 #include <string> // char_traits, string
 #include <vector> // vector
 
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/input/input_adapters.hpp>
+#include "macro_scope.hpp"
+#include "input_adapters.hpp"
 
 namespace nlohmann
 {

@@ -15,10 +15,10 @@
 #include <string> // char_traits, string
 #include <utility> // make_pair, move
 
-#include <nlohmann/detail/input/input_adapters.hpp>
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/value_t.hpp>
+#include "input_adapters.hpp"
+#include "exceptions.hpp"
+#include "macro_scope.hpp"
+#include "value_t.hpp"
 
 namespace nlohmann
 {

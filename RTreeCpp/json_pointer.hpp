@@ -5,9 +5,9 @@
 #include <string> // string
 #include <vector> // vector
 
-#include <nlohmann/detail/macro_scope.hpp>
-#include <nlohmann/detail/exceptions.hpp>
-#include <nlohmann/detail/value_t.hpp>
+#include "macro_scope.hpp"
+#include "exceptions.hpp"
+#include "value_t.hpp"
 
 namespace nlohmann
 {
